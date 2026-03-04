@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vh;
+    max-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}   
+
+.nav-bar{
+width: 200vh;
+height: 40px;
+background-color: none;
+position: relative;
+margin-left: 20px;
+margin-top: 20px;
+border-radius: 5px;
+
+}
+
+.trial{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(49, 67, 224);
+    right: 0px;
+    border-radius: 5px;
+    font-size: 7px;
+    color: white;
+    
+}
+.trial-text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    left: 10px;
+}
+.list{
+    position: relative;
+    display: flex;
+    gap: 45px;
+    position: absolute  ;
+    list-style: none;
+    right: 208px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    position: absolute;
+    width: 80px;
+    top: 50%;
+    transform:translateY(-50%);
+    left: 10px;
+
+    
+}
+
+.Title{
+    width: 600px;
+    height: 370px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.Title-text{
+    text-align: center;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 1px;
+    color: rgb(21, 21, 48);
+    top: 0px;
+}
+
+.Subtitle{
+    font-weight: 50;
+    color: rgb(114, 114, 114);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 29px;
+
+}
+.trial2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 40px;
+    background-color: rgb(49, 67, 224);
+    border-radius: 5px;
+    font-size: 7px;
+    color: white;
+    bottom: 120px;
+    
+}
+
+.Subtitle3{
+    position: absolute;
+    font-size: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 95px;
+    color: rgb(160, 159, 159);
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.section1-image{
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -115px;
+}
+
+.square1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(253, 202, 91);
+    left: 220px;
+    bottom: -30px;
+    border-radius: 40px;
+    transform: rotate(70deg);    
+    z-index: -1;    
+}
+
+.circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0.999);
+    border-radius: 50%;
+    z-index: -1;
+    left: 50%;
+    top:300px;
+    transform: translateX(130%);
+    
+}
+
