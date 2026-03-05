@@ -5,10 +5,10 @@
 }
 
 body{
-    max-width: 100vh;
-    max-height: 100vh;
+   width: 100%;
     background-color: rgb(255, 255, 255);
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }   
 
 .nav-bar{
@@ -77,6 +77,7 @@ border-radius: 5px;
     transform: translate(-50%, -70%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
+    
 }
 
 .Title-text{
@@ -86,6 +87,7 @@ border-radius: 5px;
     letter-spacing: 1px;
     color: rgb(21, 21, 48);
     top: 0px;
+    
 }
 
 .Subtitle{
@@ -128,6 +130,9 @@ border-radius: 5px;
     left: 50%;
     transform: translateX(-50%);
     bottom: -115px;
+    z-index: -1;
+    bottom: -115px;
+
 }
 
 .square1{
@@ -139,7 +144,7 @@ border-radius: 5px;
     bottom: -30px;
     border-radius: 40px;
     transform: rotate(70deg);    
-    z-index: -1;    
+    z-index:-2;    
 }
 
 .circle{
@@ -148,10 +153,40 @@ border-radius: 5px;
     height: 200px;
     background-color: rgba(0, 255, 255, 0.999);
     border-radius: 50%;
-    z-index: -1;
+    z-index:0;
     left: 50%;
     top:300px;
     transform: translateX(130%);
+    z-index: -2;
     
 }
 
+/*2nd Page */
+
+.Section1{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+
+.Section2{
+min-height: 100vh;
+  background: #8d4a4a;
+  overflow-x: hidden;
+}
+
+.cards{
+    display: flex;
+    gap:24px;
+    justify-content: center;
+}
+
+.card{
+    width: 320px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 400px;
+    border-radius: 12px;
+    flex:0 0 auto;
+}
