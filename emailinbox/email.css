@@ -177,8 +177,10 @@ min-height: 100vh;
 }
 
 .Section3{
-min-height: 100vh;
-  background: #e7e3e3;
+    min-height: 100vh;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
 }
 
 .cards{
@@ -311,15 +313,16 @@ min-height: 100vh;
 
 .Section3{
 min-height: 100vh;
-  background: #e7e3e3;
+  background: #ffffff;
+
 }
 
 .Title3{
     position: relative;
     width: 500px;
     height: 500px;
-    background-color: rgb(192, 189, 189);
-    left:160px;
+    background-color: rgb(255, 255, 255);
+    left:200px;
     top: 150px;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -327,7 +330,7 @@ min-height: 100vh;
 }
 
 .Title3-text{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .S3-Subtitle3{
@@ -336,9 +339,131 @@ min-height: 100vh;
     font-weight: 50;
     color:#7C8087;
     margin-left: 0;
-    top: 90px;
-    font-size: 12px;
-    line-height: 20px;
+    top: 115px;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.S3-Circle3{
+    position: absolute;
+    width: 550px;
+    height: 559px;
+    background-color: rgb(253, 202, 91);
+    border-radius: 50%;
+    left: 50%;
+    margin-top: -28.5% ;
+}
+
+.img1-section3{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(35%, -36%);
+    z-index: 2;
+
+}
+
+.img2-section3{
+    position: absolute;
+    top: 0;
+    right: 300px;
+    top: 180px;
+    z-index: 2;
+   
+}
+
+.threeDivs{
+    position: relative;
+    bottom: 110px;
+    left: 200px;
+}
+
+
+
+.Div-sec3{
+    position: relative;
+    width: 360px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+
+}
+.circle-s3div{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #F7F8FA;
+    border-radius: 50%;
+
+    color: #1D293F;
+
+}
+.text-s3div{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    text-align: left;
+
+    top:50%;
+    left: 17%;
+    transform: translateY(-50%);
+    font-weight: 599;
+}
+
+.connects3{
+
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 25%;
+}
+
+.pro-divS3{
+    position: absolute;
+    width: 46px;
+    height: 25px;
+    background-color: #FFD166;
+    right: 40px;
+    top: 0;
+    border-radius: 5px;
+    top:50%;
+    transform: translateY(-50%);
+    
+    color: #1D293F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6.5px;
+    
+
+
+}
+
+.text-proS3{
+position: absolute;
+top:50%;
+left: 20%;
+transform: translateY(-50%);
+
+    
+}
+.arrow{
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 29%;
+}
+
+ .bar{
+
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 32%;
+}
+
+
+.Section4{
+    min-height: 100vh;
+  background: #f6f5f5;
+
 }
 
 
