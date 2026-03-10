@@ -1,28 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-   width: 100%;
+body {
+    width: 100%;
     background-color: rgb(255, 255, 255);
     overflow-x: hidden;
     overflow-y: auto;
-}   
+}
 
-.nav-bar{
-width: 200vh;
-height: 40px;
-background-color: none;
-position: relative;
-margin-left: 20px;
-margin-top: 20px;
-border-radius: 5px;
+.nav-bar {
+    width: 200vh;
+    height: 40px;
+    background-color: none;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
 
 }
 
-.trial{
+.trial {
     position: absolute;
     width: 160px;
     height: 40px;
@@ -31,9 +31,10 @@ border-radius: 5px;
     border-radius: 5px;
     font-size: 7px;
     color: white;
-    
+
 }
-.trial-text{
+
+.trial-text {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -41,11 +42,12 @@ border-radius: 5px;
     font-weight: 400;
     left: 10px;
 }
-.list{
+
+.list {
     position: relative;
     display: flex;
     gap: 45px;
-    position: absolute  ;
+    position: absolute;
     list-style: none;
     right: 208px;
     top: 50%;
@@ -54,43 +56,44 @@ border-radius: 5px;
 
 }
 
-.list a{
+.list a {
     text-decoration: none;
     color: black;
 }
-.logo{
+
+.logo {
     position: absolute;
     width: 80px;
     top: 50%;
-    transform:translateY(-50%);
+    transform: translateY(-50%);
     left: 10px;
 
-    
+
 }
 
-.Title{
+.Title {
     width: 600px;
     height: 370px;
     position: absolute;
-    left:50%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%, -70%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
-    
+
 }
 
-.Title-text{
+.Title-text {
     text-align: center;
     font-weight: 600;
     line-height: 54px;
     letter-spacing: 1px;
     color: rgb(21, 21, 48);
     top: 0px;
-    
+
 }
 
-.Subtitle{
+.Subtitle {
     font-weight: 50;
     color: rgb(114, 114, 114);
     text-align: center;
@@ -99,7 +102,8 @@ border-radius: 5px;
     line-height: 29px;
 
 }
-.trial2{
+
+.trial2 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -110,10 +114,10 @@ border-radius: 5px;
     font-size: 7px;
     color: white;
     bottom: 120px;
-    
+
 }
 
-.Subtitle3{
+.Subtitle3 {
     position: absolute;
     font-size: 12px;
     left: 50%;
@@ -124,7 +128,7 @@ border-radius: 5px;
     letter-spacing: 1px;
 }
 
-.section1-image{
+.section1-image {
     width: 900px;
     position: absolute;
     left: 50%;
@@ -135,7 +139,7 @@ border-radius: 5px;
 
 }
 
-.square1{
+.square1 {
     position: absolute;
     width: 200px;
     height: 200px;
@@ -143,65 +147,65 @@ border-radius: 5px;
     left: 220px;
     bottom: -30px;
     border-radius: 40px;
-    transform: rotate(70deg);    
-    z-index:-2;    
+    transform: rotate(70deg);
+    z-index: -2;
 }
 
-.circle{
+.circle {
     position: absolute;
     width: 200px;
     height: 200px;
     background-color: rgba(0, 255, 255, 0.999);
     border-radius: 50%;
-    z-index:0;
+    z-index: 0;
     left: 50%;
-    top:300px;
+    top: 300px;
     transform: translateX(130%);
     z-index: -2;
-    
+
 }
 
 /*2nd Page */
 
-.Section1{
+.Section1 {
     height: 100vh;
     position: relative;
     width: 100%;
 }
 
 
-.Section2{
-min-height: 100vh;
-  background: #fefefe;
-  overflow-x: hidden;
+.Section2 {
+    min-height: 100vh;
+    background: #fefefe;
+    overflow-x: hidden;
 }
 
-.Section3{
+.Section3 {
     min-height: 100vh;
     background: #ffffff;
     position: relative;
     overflow: hidden;
 }
 
-.cards{
+.cards {
     margin-top: 220px;
     display: flex;
-    gap:24px;
+    gap: 24px;
     justify-content: center;
 
 }
 
-.card{
+.card {
     width: 300px;
     height: 150px;
-    background-color:   #F7F8FA;
+    background-color: #F7F8FA;
     border-radius: 12px;
-    flex:0 0 auto;
+    flex: 0 0 auto;
     color: rgb(21, 21, 48);
     /*box-shadow: 0 10px 25px rgba(0,0,0,0.08);*/
 }
 
-.Title2{
+.Title2 {
     position: relative;
     width: 600px;
     height: 150px;
@@ -216,14 +220,14 @@ min-height: 100vh;
 
 }
 
-.Title2-text{
+.Title2-text {
     position: absolute;
 
 }
 
-.S2-Subtitle2{
+.S2-Subtitle2 {
     font-weight: 50;
-    color:#7C8087;
+    color: #7C8087;
     line-height: 30px;
     text-align: center;
     font-size: 17px;
@@ -231,20 +235,20 @@ min-height: 100vh;
     margin-top: 18px;
 }
 
-.trial3{
+.trial3 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     width: 160px;
     height: 40px;
-    background-color:#0F53FA;
+    background-color: #0F53FA;
     border-radius: 5px;
     font-size: 7px;
     color: white;
     margin-top: 65px;
 }
 
-.trial3-text{
+.trial3-text {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -254,15 +258,15 @@ min-height: 100vh;
 
 }
 
-.play-icon{
+.play-icon {
     position: absolute;
     width: 15px;
     top: 50%;
-    transform: translateY( -50%);
+    transform: translateY(-50%);
     left: 10px;
 }
 
-.circle-card{
+.circle-card {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -270,111 +274,113 @@ min-height: 100vh;
     border-radius: 50%;
     margin-left: 15px;
     margin-top: 20px;
-   
+
 }
 
-.title-card{
+.title-card {
     position: absolute;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 90px;
     margin-top: 22px;
     color: rgb(21, 21, 48);
-    
+
 }
 
-.subtitle-card{
+.subtitle-card {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 50;
-    color:#7C8087;
+    color: #7C8087;
     font-size: 14px;
     margin-top: 50px;
     margin-left: 90px;
     line-height: 25px;
 }
 
-.node-cardimg{
+.node-cardimg {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.adds{
+.adds {
     position: absolute;
-    margin-top:40px;
+    margin-top: 40px;
     left: 50%;
     transform: translateX(-50%);
 }
-.card1, .card5{
+
+.card1,
+.card5 {
     opacity: 30%;
 
 }
 
-.Section3{
-min-height: 100vh;
-  background: #ffffff;
+.Section3 {
+    min-height: 100vh;
+    background: #ffffff;
 
 }
 
-.Title3{
+.Title3 {
     position: relative;
     width: 500px;
     height: 500px;
     background-color: rgb(255, 255, 255);
-    left:200px;
+    left: 200px;
     top: 150px;
 
     font-family: Arial, Helvetica, sans-serif;
     color: #1D293F;
 }
 
-.Title3-text{
+.Title3-text {
     font-size: 40px;
 }
 
-.S3-Subtitle3{
+.S3-Subtitle3 {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 50;
-    color:#7C8087;
+    color: #7C8087;
     margin-left: 0;
     top: 115px;
     font-size: 17px;
     line-height: 28px;
 }
 
-.S3-Circle3{
+.S3-Circle3 {
     position: absolute;
     width: 550px;
     height: 559px;
     background-color: rgb(253, 202, 91);
     border-radius: 50%;
     left: 50%;
-    margin-top: -28.5% ;
+    margin-top: -28.5%;
 }
 
-.img1-section3{
+.img1-section3 {
     width: 150px;
     height: auto;
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
     transform: translate(35%, -36%);
     z-index: 2;
 
 }
 
-.img2-section3{
+.img2-section3 {
     position: absolute;
     top: 0;
     right: 300px;
     top: 180px;
     z-index: 2;
-   
+
 }
 
-.threeDivs{
+.threeDivs {
     position: relative;
     bottom: 110px;
     left: 200px;
@@ -382,7 +388,7 @@ min-height: 100vh;
 
 
 
-.Div-sec3{
+.Div-sec3 {
     position: relative;
     width: 360px;
     height: 50px;
@@ -390,7 +396,8 @@ min-height: 100vh;
     margin-bottom: 20px;
 
 }
-.circle-s3div{
+
+.circle-s3div {
     position: relative;
     width: 50px;
     height: 50px;
@@ -400,26 +407,27 @@ min-height: 100vh;
     color: #1D293F;
 
 }
-.text-s3div{
+
+.text-s3div {
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 23px;
     text-align: left;
 
-    top:50%;
+    top: 50%;
     left: 17%;
     transform: translateY(-50%);
     font-weight: 599;
 }
 
-.connects3{
+.connects3 {
 
     position: absolute;
     margin-left: 25%;
     margin-top: 25%;
 }
 
-.pro-divS3{
+.pro-divS3 {
     position: absolute;
     width: 46px;
     height: 25px;
@@ -427,32 +435,33 @@ min-height: 100vh;
     right: 40px;
     top: 0;
     border-radius: 5px;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
-    
+
     color: #1D293F;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 6.5px;
-    
+
 
 
 }
 
-.text-proS3{
-position: absolute;
-top:50%;
-left: 20%;
-transform: translateY(-50%);
+.text-proS3 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
 
-    
+
 }
-.arrow{
+
+.arrow {
     position: absolute;
     margin-left: 34%;
     margin-top: 29%;
 }
 
- .bar{
+.bar {
 
     position: absolute;
     margin-left: 30%;
@@ -460,22 +469,22 @@ transform: translateY(-50%);
 }
 
 
-.Section4{
+.Section4 {
     min-height: 100vh;
-  background: #f6f5f5;
-  position: relative;
-  overflow: hidden;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
 
 }
 
 
 
-.Sec4-Title{
-     position: relative;
-    width: 500px;   
+.Sec4-Title {
+    position: relative;
+    width: 500px;
     height: 430px;
     background-color: rgb(255, 255, 255);
-    margin-left:720px;
+    margin-left: 720px;
     top: 146px;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -483,34 +492,34 @@ transform: translateY(-50%);
 }
 
 
-.Circle-S4{
+.Circle-S4 {
     position: absolute;
-    background-color:#37DEF5;
+    background-color: #37DEF5;
     width: 450px;
     height: 450px;
     border-radius: 50%;
     left: 9%;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
 
 }
 
-.S4-img1{
+.S4-img1 {
     position: absolute;
-    top:0;
+    top: 0;
     left: 80px;
 }
 
-.S4-img2{
+.S4-img2 {
     position: absolute;
     top: 390px;
-    left:370px;
+    left: 370px;
 }
 
-.download{
+.download {
     position: relative;
-    background-color: rgb(246, 246, 246);
-    width: 200px;
+    background-color: rgb(255, 255, 255);
+    width: 210px;
     height: 168px;
     top: 170px;
 
@@ -518,29 +527,171 @@ transform: translateY(-50%);
 
 
 
-.apple{
+.apple {
+    position: relative;
     padding-top: 20px;
     background-color: #0F53FA;
-    width: 200px;
+    width: 210px;
     height: 74px;
     margin-bottom: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
 
+    color: white;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.google{
+.title-appleS4 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 15px;
+}
+
+.sub-appleS4 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 7px;
+    margin-top: -6px;
+    margin-left: 63px;
+    font-weight: lighter;
+    font-weight: -100;
+
+
+}
+
+
+.title-googleS4 {
+    position: absolute;
+    margin-left: 63px;
+    margin-top: 11px;
+}
+
+.sub-googleS4 {
+    position: absolute;
+    color: #848a95;
+    font-size: 7px;
+    margin-top: -6px;
+    margin-left: 63px;
+    font-weight: lighter;
+    font-weight: -100;
+}
+
+
+
+
+.apple-icon {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+
+
+.google {
+    position: relative;
     padding-top: 20px;
     background-color: none;
-    width: 200px;
+    width: 210px;
     height: 74px;
     margin-bottom: 20px;
     border-radius: 5px;
     border: solid rgb(225, 224, 224) 2px;
     z-index: 10;
+
+    color: #1D293F;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.google-icon {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+
+.Section5 {
+    min-height: 100vh;
+    background: #dddbdb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.Sec5-Title{
+    position: relative;
+    width: 500px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 85px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1D293F;
+    text-align: center;
 }
 
 
+.Title5-text {
+    font-size: 40px;
+}
+
+.S5-Subtitle5 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    color: #7C8087;
+    margin-left: 18px;
+    top: 70px;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.Circle-S5{
+    position: absolute;
+    background-color: #FFD166;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    left: 80%;
+    top: 50%;
+    transform: translateY(-150%);
+
+}
+
+.Cards-S5{
+    position: relative;
+    background-color: #0F53FA;
+    width:870px;
+    height: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+    top:180px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
 
 
 
+
+}
+
+.Card-Line1{
+    width: 280px;
+    height: 120px;
+    background-color: white;
+    border-radius: 8px;
+
+}
+
+.Card-Line2{
+    width: 280px;
+    height: 120px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top:13px;
+}
