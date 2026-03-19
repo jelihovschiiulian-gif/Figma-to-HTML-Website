@@ -135,7 +135,7 @@ body {
     transform: translateX(-50%);
     bottom: -115px;
     z-index: -1;
-    bottom: -115px;
+    bottom: -5px;
 
 }
 
@@ -484,7 +484,7 @@ body {
     width: 500px;
     height: 430px;
     background-color: rgb(255, 255, 255);
-    margin-left: 720px;
+    margin-left: 775px;
     top: 146px;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -618,7 +618,7 @@ body {
 
 }
 
-.Sec5-Title{
+.Sec5-Title {
     position: relative;
     width: 500px;
     height: 140px;
@@ -648,7 +648,7 @@ body {
     text-align: center;
 }
 
-.Circle-S5{
+.Circle-S5 {
     position: absolute;
     background-color: #FFD166;
     width: 450px;
@@ -660,26 +660,26 @@ body {
 
 }
 
-.Cards-S5{
+.Cards-S5 {
     position: relative;
     background-color: none;
-    width:870px;
+    width: 870px;
     height: 270px;
     left: 50%;
     transform: translateX(-50%);
-    top:180px;
+    top: 180px;
 
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    
+
 
 
 
 
 }
 
-.Card-Line1{
+.Card-Line1 {
     position: relative;
     width: 280px;
     height: 126px;
@@ -696,7 +696,7 @@ body {
 }
 
 
-.img1ln1{
+.img1ln1 {
     position: absolute;
     left: 15px;
     top: 12px;
@@ -704,44 +704,45 @@ body {
 }
 
 
-.twitter{
+.twitter {
     position: absolute;
-    left:86%;
+    left: 86%;
     top: 9%;
 }
 
-.Card-Line2{
+.Card-Line2 {
     position: relative;
     width: 280px;
     height: 126px;
     background-color: white;
     border-radius: 8px;
-    margin-top:13px;
-    
-     font-size: 7px;
+    margin-top: 13px;
+
+    font-size: 7px;
     font-family: Arial, Helvetica, sans-serif;
 
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
 
 }
 
-.h-line{
+.h-line {
     position: absolute;
     left: 70px;
     top: 13px;
 
 }
-.sub-line h2{
+
+.sub-line h2 {
     position: absolute;
     left: 70px;
-    top: 34px;  
+    top: 34px;
     color: #848a95;
 
     font-weight: 100;
 
 }
 
-.line-p p{
+.line-p p {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     left: 15px;
@@ -758,43 +759,43 @@ body {
     min-height: 100vh;
     background: #ffffff;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 
 }
 
-.plans{
+.plans {
     position: relative;
     width: 86%;
     height: 500px;
-    background-color: none ;
+    background-color: none;
     top: 75px;
-    left: 50%;
+    left: 56%;
     transform: translateX(-50%);
-    
+
 }
 
-.plan{
+.plan {
     position: relative;
     width: 100%;
     height: 120px;
-    background-color: none  ;
+    background-color: none;
 
-    margin-bottom:10px;
+    margin-bottom: 10px;
 
     font-family: Arial, Helvetica, sans-serif;
     color: #1D293F;
-    font-size: 10px;
+    font-size: 9px;
 
 
 }
 
-.plan1{
+.plan1 {
     position: relative;
     width: 100%;
     height: 150px;
-    background-color: none ;
+    background-color: none;
 
-    margin-bottom:10px;
+    margin-bottom: 10px;
 
     font-family: Arial, Helvetica, sans-serif;
     color: #1D293F;
@@ -802,12 +803,12 @@ body {
 
 }
 
-.toggle-6{
+.toggle-6 {
     position: relative;
     width: 290px;
     height: 40px;
     background-color: #F7F8FA;
-    left: 76%;
+    left: 65%;
     top: -90px;
     border-radius: 8px;
     display: flex;
@@ -815,7 +816,7 @@ body {
 }
 
 
-.Yearly h1{
+.Yearly h1 {
     width: 145px;
     height: 40px;
     background-color: #FFD166;
@@ -830,14 +831,14 @@ body {
 
 }
 
-.Monthly h1{
+.Monthly h1 {
     width: 145px;
     height: 40px;
     background-color: #ffffff;
     border-radius: 0px 8px 8px 0px;
-    border: #FFD166 2px solid ;
+    border: #FFD166 2px solid;
 
-   text-align: center;
+    text-align: center;
     font-size: 15px;
     padding-top: 11px;
 
@@ -846,14 +847,14 @@ body {
 
 }
 
-.name-6 h1{
- padding-top: 10px;
+.name-6 h1 {
+    padding-top: 10px;
 }
 
-.spec-6{
+.spec-6 {
     position: absolute;
     top: 10px;
-    left:27%;
+    left: 20%;
     font-family: Arial, Helvetica, sans-serif;
     color: #1D293F;
     font-size: 14px;
@@ -862,24 +863,25 @@ body {
 
 }
 
-.price-6{
+.price-6 {
     position: absolute;
-    left: 58%;
+    left: 47%;
     top: 10px;
 
 }
-.price-6 h1{
+
+.price-6 h1 {
     font-size: 45px;
 }
 
-.price-6 h2{
+.price-6 h2 {
     font-size: 13px;
     padding-top: 5px;
     font-weight: 100;
     color: #848a95;
 }
 
-.trial6{
+.trial6 {
     position: absolute;
     width: 160px;
     height: 40px;
@@ -889,9 +891,208 @@ body {
     color: white;
 
     top: 10px;
-    left: 85%;
+    left: 75%;
+}
+
+.trial6-2 {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color:none;
+    border-radius: 5px;
+    font-size: 7px;
+    color: #1D293F;
+    border: 2px solid #E2E4E8 ;
+
+    top: 10px;
+    left: 75%;
+}
+
+.line-S6{
+     position: absolute;
+    background-color: #ECEFF4;
+    width: 75%;
+    height: 1px;
+    overflow: hidden;
+    top: 68%;
+    left: 13%;
+    
+}
+
+.line2-S6{
+     position: absolute;
+    background-color: #ECEFF4;
+    width: 75%;
+    height: 1px;
+    overflow: hidden;
+    top: 50%;
+    left: 13%;
+    
+}
+
+.line3-S6{
+     position: absolute;
+    background-color: #ECEFF4;
+    width: 75%;
+    height: 1px;
+    overflow: hidden;
+    top: 30%;
+    left: 13%;
+    
 }
 
 
 
+
+.Section7 {
+    min-height: 70vh;
+    background: #1D293F;
+    position: relative;
+    overflow: visible;
+
+}
+
+.title1-S7 {
+    position: relative;
+    background-color: none ;
+    width: 78%;
+    height: 215px;
+    left: 13%;
+    top: 105px;
+
+}
+
+.text1-S7 p {
+    position: absolute;
+    top: 50px;
+    color: #8C97AC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter 50%;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+
+.button-S7 {
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    background-color: #0F53FA;
+    bottom: 10px;
+    border-radius: 4px;
+
+}
+
+
+.buttontxt-S7 {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-36%, -50%);
+
+}
+
+.ContainerS7 {
+    display: flex;
+    gap: 120px;
+    margin-top: -3.6%;
+    margin-left: 38%;
+}
+
+
+.info-S7 .info-headS7 {
+    color: #8C97AC;
+    margin-bottom: 8px;
+    font-size: 16px;
+
+}
+
+.info-S7 {
+    color: #E9F7FE;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+
+}
+
+.info-S7 .call-S7 {
+    color: #E9F7FE;
+    line-height: 28px;
+
+    margin-bottom: 20px;
+}
+
+.info-S7 .number-S7 {
+    color: #FFD166;
+    line-height: 23px;
+}
+
+.Circle-S7{
+    position: absolute;
+    background-color: #FFD166;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    left: -10%;
+    top: 60%;
+}
+
+.Square-S7{
+     position: absolute;
+    background-color: #37DEF5;
+    width: 400px;
+    height: 400px;
+    z-index: 100;
+    transform: rotate(60deg);
+    border-radius: 40px;
+    top: -45%;
+    left: 95%;
+    z-index: 100;
+}
+
+.circle-wrapper{
+    position: relative;
+    height: 290px;
+    overflow: hidden;
+}
+
+.line7{
+    position: absolute;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+}
+
+.line-S7{
+     position: absolute;
+    background-color: #313D55;
+    width: 75%;
+    height: 2px;
+    overflow: hidden;
+    top: 87%;
+    left: 13%;
+    
+}
+
+.bottom-S7{
+    position: absolute;
+    left: 13%;
+    width: 75%;
+    top: 93%;
+
+    color: #8C97AC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.ic-7{
+     position: absolute;
+    left: 92%;
+    top: -15%;
+}
 
